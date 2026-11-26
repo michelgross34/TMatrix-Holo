@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(Mish_Holo_MinGW LANGUAGES CXX Fortran)
+if(NOT MINGW OR NOT CMAKE_Fortran_COMPILER_ID STREQUAL "GNU" OR NOT CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+  message(FATAL_ERROR "Select a MinGW-w64 GNU C++ and GNU Fortran toolchain.")
+endif()
+include("../cmake/Holo.cmake")

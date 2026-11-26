@@ -1,0 +1,12 @@
+if(NOT EXISTS "${SOURCE_DIR}/holo_cuda.dll")
+  message(FATAL_ERROR "Missing native CUDA DLL in ${SOURCE_DIR}")
+endif()
+file(MAKE_DIRECTORY "${DEST_DIR}")
+file(GLOB runtime_dlls "${SOURCE_DIR}/*.dll")
+foreach(dll IN LISTS runtime_dlls)
+  execute_process(COMMAND "${CMAKE_COMMAND}" -E copy_if_different "${dll}" "${DEST_DIR}"
+    RESULT_VARIABLE status)
+  if(NOT status EQUAL 0)
+    message(FATAL_ERROR "Cannot deploy ${dll}")
+  endif()
+endforeach()

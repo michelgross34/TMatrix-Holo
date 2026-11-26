@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(Mish_Holo_WSL LANGUAGES CXX Fortran)
+if(NOT CMAKE_SYSTEM_NAME STREQUAL "Linux" OR NOT CMAKE_Fortran_COMPILER_ID STREQUAL "GNU")
+  message(FATAL_ERROR "Select the Linux/WSL toolchain with GNU Fortran.")
+endif()
+include("../cmake/Holo.cmake")

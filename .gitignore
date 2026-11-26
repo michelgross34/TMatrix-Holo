@@ -1,0 +1,31 @@
+# Generated files and local IDE state
+**/build/
+**/build_*/
+**/cmake-build-*/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/Testing/
+**/run/
+**/zip/
+**/__pycache__/
+**/.idea/
+**/desktop.ini
+*.lnk
+*.pyc
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.exp
+*.pdb
+*.raw
+*.part
+/holo/mish_holo
+/holo/mish_holo_cpu
+/holo/mish_holo_openmp
+/holo/mish_holo_cuda
+# External dependencies are supplied separately.
+/mishenko/src/
+/holo/fftw/
