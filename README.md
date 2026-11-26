@@ -40,6 +40,28 @@ Linux or WSL:
 
 Select the desired mode. In CLion, open holo/mingw or holo/wsl, select the appropriate toolchain and set HOLO_MODE=CPU_OPENMP_CUDA in the CMake profile to build all three targets. See the linked guides for dependencies, options and examples.
 
+## License and scientific citation
+
+TMatrix-Holo is available under the [Noncommercial Scientific Research License, version 1.0](LICENSE).
+Researchers may use, study, modify and share the original project code
+free of charge for noncommercial scientific research and scientific
+education. Commercial use requires prior written permission from the
+relevant copyright holder(s). Please acknowledge TMatrix-Holo, cite this
+repository and the relevant Mishchenko publications in scientific work.
+This is a source-available research license, not an OSI-approved
+open-source license.
+
 ## Third-party terms
 
-The original Mishchenko headers specify use in non-profit scientific research and request acknowledgment and citation. FFTW is separately licensed. Obtain dependencies under their applicable terms. The repository does not grant a license to third-party code or binaries. A distribution license for the HOLO-specific source code must be selected by its rights holder before public release.
+The original Mishchenko headers specify use in non-profit scientific
+research and request acknowledgment and citation. Third-party components
+are not relicensed by TMatrix-Holo. Obtain dependencies under their own
+applicable terms.
+
+FFTW is available under GPL-2.0-or-later or separately negotiated
+alternative terms (see https://fftw.org/doc/License-and-Copyright.html).
+The GPL and the TMatrix-Holo noncommercial restriction are not compatible
+for distribution of a combined work under both sets of terms. Build for
+local research use; do not redistribute FFTW-linked executables without
+establishing compatible licensing arrangements. The repository therefore
+does not distribute third-party libraries or compiled executables.

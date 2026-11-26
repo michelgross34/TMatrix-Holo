@@ -27,6 +27,13 @@ QP uses REAL*16 (GNU binary128) for extended-precision operations, including the
 
 Upstream distribution: https://www.giss.nasa.gov/staff/mmishchenko/tmatrix/. The original headers allow unrestricted non-profit scientific research and request acknowledgment and citation of relevant publications. Review those conditions before other use or redistribution.
 
+TMatrix-Holo's original material is available under the
+[Noncommercial Scientific Research License, version 1.0](../../LICENSE).
+Use, modification and sharing for noncommercial scientific research and
+education are permitted; commercial use requires prior written permission.
+Third-party terms remain independent. See the [repository README](../../README.md#third-party-terms)
+for the FFTW licensing conditions relevant to redistribution.
+
 ### 2.2. Project files
 
 | File or directory | Purpose |

@@ -1,0 +1,59 @@
+TMatrix-Holo — Noncommercial Scientific Research License, version 1.0
+
+Copyright (c) 2026 Michel Gross
+
+1. Scope
+
+This license applies to the original TMatrix-Holo code, scripts and
+documentation to the extent that the licensor holds the necessary rights.
+Third-party material, including the Mishchenko T-matrix programs, LAPACK,
+FFTW and CUDA, remains subject to its own terms. This license does not
+grant rights in any third-party material.
+
+2. Permitted use
+
+Permission is granted, free of charge, to any person or organization to
+use, study, copy, modify and distribute the licensed material solely for
+noncommercial scientific research and scientific education, subject to
+the conditions below.
+
+Noncommercial research means research not primarily directed towards
+commercial advantage or financial compensation from exploitation of the
+software. Ordinary academic salaries, public research grants and the
+publication of scientific results, including in journals with subscription
+or publication fees, do not by themselves make a use commercial.
+
+3. Commercial use
+
+Commercial use is not authorized by this license. In particular, use
+for commercial product or service development, paid simulation services,
+commercially commissioned research or the sale of the software or
+derivatives requires prior written permission from the relevant copyright
+holder(s). Where third-party components are involved, their permissions
+must also be obtained as required.
+
+4. Redistribution and attribution
+
+Copies and modified versions may be shared for the permitted purposes,
+provided that they retain the applicable copyright notices and this
+license, identify modifications, and do not remove the noncommercial
+restriction on the licensed TMatrix-Holo material. Distribution must
+also comply with all applicable third-party licenses.
+
+In scientific publications using TMatrix-Holo, please acknowledge the
+software, cite its repository and version or commit where practicable,
+and cite the relevant publications of Michael I. Mishchenko and other
+authors as appropriate. The original source notices must be preserved.
+
+Repository: https://github.com/michelgross34/TMatrix-Holo
+
+5. Disclaimer
+
+The software is provided as is, without warranties of any kind, express
+or implied, including fitness for a particular purpose, accuracy and
+non-infringement. To the maximum extent permitted by applicable law,
+the copyright holders shall not be liable for damages arising from its
+use, modification or distribution.
+
+All rights not expressly granted are reserved. Nothing in this license
+limits rights that cannot be restricted under applicable law.

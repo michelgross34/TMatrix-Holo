@@ -4,6 +4,12 @@ HOLO computes electromagnetic extinction, scattering and absorption cross sectio
 
 The solver runs on a CPU, with optional OpenMP parallelization of T-matrix construction and optional CUDA FP64 acceleration of the scattered field and hologram formation. Windows and Linux/WSL use the same physical model. See [the technical documentation](doc/INDEX.md) for the equations, complete CLI reference, output formats, validation and benchmarks.
 
+The original TMatrix-Holo material is licensed for noncommercial
+scientific research and education under the [project license](../LICENSE).
+Commercial use requires prior written permission. Third-party components
+retain their own terms; see the [repository README](../README.md#third-party-terms)
+before distributing any combined executable.
+
 ## 1. Mishchenko T-matrix code: provenance and integration
 
 HOLO uses Michael I. Mishchenko's fixed-orientation T-matrix programs from NASA Goddard Institute for Space Studies (GISS), specifically the LAPACK-based release whose two source headers state **Last update 08/06/2005** (the date is reproduced exactly as printed in the original files).
